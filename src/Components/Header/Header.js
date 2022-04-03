@@ -6,7 +6,11 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar
+        bg="light"
+        style={{ position: "sticky", top: "0", zIndex: "10" }}
+        expand="lg"
+      >
         <Container className="navbar">
           <NavLink to="/" className="fw-bold link-left">
             Mac Studio
