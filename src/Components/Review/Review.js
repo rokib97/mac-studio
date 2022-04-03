@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Card } from "react-bootstrap";
 import Rating from "react-rating";
-import "./HomeReview.css";
 
-const HomeReview = ({ reviews }) => {
+const Review = ({ reviews }) => {
   const { name, review, image } = reviews;
+
   return (
     <div className="col-lg-4 col-md-6 col-12">
       <Card className="p-3 card-details">
@@ -30,4 +30,4 @@ const HomeReview = ({ reviews }) => {
   );
 };
 
-export default HomeReview;
+export default Review;
