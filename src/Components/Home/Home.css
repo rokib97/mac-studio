@@ -1,0 +1,16 @@
+.container-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+  width: 400px;
+  height: 400px;
+  margin-left: 50px;
+}
+.text-container {
+  text-align: start;
+}
+.text-second {
+  color: blue;
+}
