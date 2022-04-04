@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "./FAQ.css";
 
-const FAQ = ({ id, title, desc }) => {
+const FAQ = ({ title, desc }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <article className="faq">
@@ -17,7 +17,7 @@ const FAQ = ({ id, title, desc }) => {
           )}
         </button>
       </div>
-      {toggle && <p>{desc}</p>}
+      {toggle && <h6 className="text-start">{desc}</h6>}
     </article>
   );
 };

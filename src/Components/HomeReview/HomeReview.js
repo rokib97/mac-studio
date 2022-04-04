@@ -22,7 +22,7 @@ const HomeReview = ({ reviews }) => {
             readonly
           ></Rating>
           <Card.Text>
-            <i>{review.slice(0, 200)}</i>
+            <i>{review.length > 180 ? review.slice(0, 180) : review}...</i>
           </Card.Text>
         </Card.Body>
       </Card>

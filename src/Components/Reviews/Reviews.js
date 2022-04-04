@@ -7,7 +7,7 @@ const Reviews = () => {
   return (
     <>
       <div className="container my-5">
-        <h1 className="fw-bolder display-5 my-4">What our customers say!</h1>
+        <h1 className="fw-bolder display-5 my-4">What they say...</h1>
 
         <div className="row g-4">
           {reviews &&

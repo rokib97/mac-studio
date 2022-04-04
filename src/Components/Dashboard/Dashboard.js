@@ -59,7 +59,7 @@ const Dashboard = () => {
         <div className="row g-4 w-100 mx-auto">
           <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-3">Month Wise Sell</h3>
-            <LineChart width={400} height={250} data={data}>
+            <LineChart width={400} height={300} data={data}>
               <Line
                 type="monotone"
                 dataKey="sell"
@@ -74,7 +74,7 @@ const Dashboard = () => {
           </div>
           <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-3">Investment VS Revenue</h3>
-            <AreaChart width={400} height={250} data={data}>
+            <AreaChart width={400} height={300} data={data}>
               <XAxis dataKey="month"></XAxis>
               <YAxis></YAxis>
               <Tooltip></Tooltip>
@@ -101,7 +101,7 @@ const Dashboard = () => {
         <div className="row g-4 w-100 mx-auto">
           <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-3">Investment VS Revenue</h3>
-            <BarChart width={400} height={250} data={data}>
+            <BarChart width={400} height={300} data={data}>
               <XAxis dataKey="month"></XAxis>
               <YAxis></YAxis>
               <Tooltip></Tooltip>
@@ -111,9 +111,9 @@ const Dashboard = () => {
             </BarChart>
           </div>
           <div className="col-lg-6 col-md-12 col-12">
-            <h3 className="text-primary mb-5">Investment VS Revenue</h3>
+            <h3 className="text-primary mb-4">Investment VS Revenue</h3>
 
-            <PieChart width={450} height={300}>
+            <PieChart width={400} height={300}>
               <Pie
                 data={data}
                 dataKey="investment"
