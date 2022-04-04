@@ -1,6 +1,6 @@
 ## Project Name: Mac Studio
 
-Live Link : [Mac Studio](https://delicate-treacle-f606cf.netlify.app/).
+Live Link : [Mac Studio](https://apple-mac-studio.netlify.app/).
 
 ## Basic Project Structure Setup
 
