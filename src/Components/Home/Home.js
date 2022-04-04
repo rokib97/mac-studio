@@ -1,10 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import HomeReview from "../HomeReview/HomeReview";
 import useReview from "../hooks/useReview";
 import "./Home.css";
 import image from "./mac-studio.jpg";
 
 const Home = () => {
+  const navigate = useNavigate();
   const [reviews] = useReview();
   console.log(reviews);
   return (
@@ -29,7 +31,9 @@ const Home = () => {
                 all-new M1 Ultra — the most powerful chip ever in a personal
                 computer.
               </p>
-              <button className="btn btn-outline-primary">Live Demo</button>
+              <button className="btn btn-outline-primary mb-3">
+                Live Demo
+              </button>
             </div>
           </div>
           <div className="col-lg-6">
@@ -46,6 +50,12 @@ const Home = () => {
             <HomeReview key={review.id} reviews={review} />
           ))}
         </div>
+        <button
+          onClick={() => navigate("/reviews")}
+          className="btn btn-lg btn-primary rounded-pill mt-4"
+        >
+          See All Review
+        </button>
       </div>
     </div>
   );
