@@ -6,7 +6,7 @@ export const faqsData = [
   },
   {
     id: 2,
-    title: "What Are Semantic HTML Tags and How to Use Them",
+    title: "What Are Semantic HTML Tags and How to Use Them?",
     desc: "Semantics Elements have meaningfull Name which tells about the type of Content.For example header footer aside etc. HTML5 introduced many semantic tag which is basically make a developers life easy because now developer can design the web according to this semantic elements.Some main semantics elemets are, 1)Header - As the name suggests, it is for the header of a section introductory of a page. There can be multiple headers on a page. 2)Main- Main Contains All the main parts of the webpage , inside main we can use i)Section ii)Article ii) Aside etc. Section Can contains a part of things is a webpage , Article can contain something like blog post and aside can caontain some extra things like link,or info about something in a side of that page, Last one is footer which is basically contains some info about the author of that page and some link to navigate and contact.",
   },
   {
