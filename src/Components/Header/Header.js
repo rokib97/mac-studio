@@ -50,14 +50,6 @@ const Header = () => {
               >
                 Blogs
               </NavLink>
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? "active-link" : "link"
-                }
-                to="/about"
-              >
-                About
-              </NavLink>
               <button className="btn btn-primary rounded-pill ms-3">Buy</button>
             </Nav>
           </Navbar.Collapse>

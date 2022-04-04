@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Project Name: Mac Studio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Link: [Mac Studio](https://delicate-treacle-f606cf.netlify.app/).
 
 ## Available Scripts
 
