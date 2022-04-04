@@ -54,12 +54,12 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div>
+    <>
       <div className="container my-5">
-        <div className="row">
-          <div className="col-lg-6">
+        <div className="row g-4 w-100 mx-auto">
+          <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-3">Month Wise Sell</h3>
-            <LineChart width={500} height={250} data={data}>
+            <LineChart width={400} height={250} data={data}>
               <Line
                 type="monotone"
                 dataKey="sell"
@@ -72,9 +72,9 @@ const Dashboard = () => {
               <Legend></Legend>
             </LineChart>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-3">Investment VS Revenue</h3>
-            <AreaChart width={500} height={250} data={data}>
+            <AreaChart width={400} height={250} data={data}>
               <XAxis dataKey="month"></XAxis>
               <YAxis></YAxis>
               <Tooltip></Tooltip>
@@ -98,10 +98,10 @@ const Dashboard = () => {
         </div>
       </div>
       <div className="container mt-5">
-        <div className="row">
-          <div className="col-lg-6">
+        <div className="row g-4 w-100 mx-auto">
+          <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-3">Investment VS Revenue</h3>
-            <BarChart width={500} height={250} data={data}>
+            <BarChart width={400} height={250} data={data}>
               <XAxis dataKey="month"></XAxis>
               <YAxis></YAxis>
               <Tooltip></Tooltip>
@@ -110,10 +110,10 @@ const Dashboard = () => {
               <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
             </BarChart>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-5">Investment VS Revenue</h3>
 
-            <PieChart width={600} height={300}>
+            <PieChart width={450} height={300}>
               <Pie
                 data={data}
                 dataKey="investment"
@@ -138,7 +138,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

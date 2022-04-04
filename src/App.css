@@ -6,6 +6,8 @@
 
 body {
   font-family: "Raleway", sans-serif;
+
+  background-color: rgb(233, 232, 232);
 }
 .App {
   text-align: center;

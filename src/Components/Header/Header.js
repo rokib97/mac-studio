@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <Navbar
         bg="light"
-        style={{ position: "sticky", top: "0", zIndex: "10" }}
+        style={{ position: "sticky", top: "0", zIndex: "8" }}
         expand="lg"
       >
         <Container className="navbar">

@@ -3,19 +3,18 @@ import { useNavigate } from "react-router-dom";
 import HomeReview from "../HomeReview/HomeReview";
 import useReview from "../hooks/useReview";
 import "./Home.css";
-import image from "./mac-studio.jpg";
+import image from "./studio-removebg-preview.png";
 
 const Home = () => {
   const navigate = useNavigate();
   const [reviews] = useReview();
-  console.log(reviews);
   return (
     <div>
       <div className="container my-5 p-4">
         <div className="row g-4 container-details">
           <div className="col-lg-6">
             <div className="text-container ">
-              <h1 className="fw-bolder display-5">
+              <h1 className="fw-bolder display-5 text-start">
                 Empower station and Outrageous performance.
                 <br />
                 <span className="fw-bolder display-5 text-second">
@@ -38,7 +37,7 @@ const Home = () => {
           </div>
           <div className="col-lg-6">
             <div className="image-container">
-              <img src={image} alt="" />
+              <img className="w-100 h-50 mx-auto" src={image} alt="" />
             </div>
           </div>
         </div>
