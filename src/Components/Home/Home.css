@@ -6,7 +6,7 @@
 .image-container img {
   width: 400px;
   height: 400px;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 .text-container {
   text-align: start;

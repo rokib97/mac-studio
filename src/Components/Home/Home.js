@@ -9,8 +9,8 @@ const Home = () => {
   const navigate = useNavigate();
   const [reviews] = useReview();
   return (
-    <div>
-      <div className="container my-5 p-4">
+    <>
+      <div className="container my-5 overflow-hidden">
         <div className="row g-4 container-details">
           <div data-aos="fade-right" className="col-lg-6">
             <div className="text-container ">
@@ -42,7 +42,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container my-5">
+      <div className="container my-5  overflow-hidden">
         <h1 className="fw-bolder display-5 mb-4">Customer Reviews</h1>
         <div className="row g-4">
           {reviews.slice(0, 3).map((review) => (
@@ -56,7 +56,7 @@ const Home = () => {
           See All Review
         </button>
       </div>
-    </div>
+    </>
   );
 };
 
