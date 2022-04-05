@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import useReview from "../../hooks/useReview";
 import HomeReview from "../HomeReview/HomeReview";
-import useReview from "../hooks/useReview";
 import "./Home.css";
 import image from "./studio-removebg-preview.png";
 

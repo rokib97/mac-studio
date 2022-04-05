@@ -1,5 +1,5 @@
 import React from "react";
-import useReview from "../hooks/useReview";
+import useReview from "../../hooks/useReview";
 import Review from "../Review/Review";
 import "./Reviews.css";
 
