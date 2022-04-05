@@ -17,6 +17,7 @@ const HomeReview = ({ reviews }) => {
               <FaStar key={Math.random()} className="text-warning"></FaStar>
             );
           })}
+          <p className="text-dark fw-bold">{ratings}.00/5.00</p>
           <Card.Text>
             <i>{review.length > 180 ? review.slice(0, 180) : review}...</i>
           </Card.Text>
