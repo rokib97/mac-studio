@@ -1,6 +1,7 @@
 .active-link {
   text-decoration: none;
-  /* border-bottom: 3px solid #1e90c2; */
+  border-bottom: 3px solid #1e90c2;
+  width: 0 auto;
   margin-left: 15px;
   font-size: 20px;
   transition: color ease-in-out 300ms;
