@@ -9,7 +9,7 @@ const HomeReview = ({ reviews }) => {
   const { name, review, image } = reviews;
   return (
     <div className="col-lg-4 col-md-6 col-12">
-      <Card className="p-3 card-details">
+      <Card data-aos="zoom-in-up" className="p-3 card-details">
         <Card.Img className="rounded-circle my-3" variant="top" src={image} />
         <Card.Body className="bg-light mt-4 text-dark rounded-2">
           <Card.Title>{name}</Card.Title>

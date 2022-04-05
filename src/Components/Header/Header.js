@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <Navbar
         bg="light"
-        style={{ position: "sticky", top: "0", zIndex: "8" }}
+        style={{ position: "sticky", top: "0", zIndex: "10" }}
         expand="lg"
       >
         <Container className="navbar">
@@ -49,6 +49,14 @@ const Header = () => {
                 to="/blogs"
               >
                 Blogs
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "active-link" : "link"
+                }
+                to="/about"
+              >
+                About
               </NavLink>
               <button className="btn btn-primary rounded-pill ms-3">Buy</button>
             </Nav>

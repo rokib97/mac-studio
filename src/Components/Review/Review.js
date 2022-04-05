@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Card } from "react-bootstrap";
 import Rating from "react-rating";
-
+import "./Review.css";
 const Review = ({ reviews }) => {
   const { name, review, image } = reviews;
 

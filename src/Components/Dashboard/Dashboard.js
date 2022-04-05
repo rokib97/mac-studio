@@ -9,6 +9,7 @@ import {
   LineChart,
   Pie,
   PieChart,
+  ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
@@ -56,85 +57,100 @@ const Dashboard = () => {
   return (
     <>
       <div className="container my-5">
-        <div className="row g-4 w-100 mx-auto">
+        <div className="row g-4">
           <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-3">Month Wise Sell</h3>
-            <LineChart width={400} height={300} data={data}>
-              <Line
-                type="monotone"
-                dataKey="sell"
-                stroke="#8884d8"
-                strokeWidth={2}
-              />
-              <XAxis dataKey="month"></XAxis>
-              <YAxis></YAxis>
-              <Tooltip></Tooltip>
-              <Legend></Legend>
-            </LineChart>
+            <div style={{ width: "99%", height: 300 }}>
+              <ResponsiveContainer>
+                <LineChart data={data}>
+                  <Line
+                    type="monotone"
+                    dataKey="sell"
+                    stroke="#8884d8"
+                    strokeWidth={2}
+                  />
+                  <XAxis dataKey="month"></XAxis>
+                  <YAxis></YAxis>
+                  <Tooltip></Tooltip>
+                  <Legend></Legend>
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
           </div>
           <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-3">Investment VS Revenue</h3>
-            <AreaChart width={400} height={300} data={data}>
-              <XAxis dataKey="month"></XAxis>
-              <YAxis></YAxis>
-              <Tooltip></Tooltip>
-              <Legend></Legend>
-              <Area
-                type="monotone"
-                dataKey="investment"
-                stackId="1"
-                stroke="#8884d8"
-                fill="#8884d8"
-              />
-              <Area
-                type="monotone"
-                dataKey="revenue"
-                stackId="1"
-                stroke="#82ca9d"
-                fill="#82ca9d"
-              />
-            </AreaChart>
+            <div style={{ width: "99%", height: 300 }}>
+              <ResponsiveContainer>
+                <AreaChart data={data}>
+                  <XAxis dataKey="month"></XAxis>
+                  <YAxis></YAxis>
+                  <Tooltip></Tooltip>
+                  <Legend></Legend>
+                  <Area
+                    type="monotone"
+                    dataKey="investment"
+                    stackId="1"
+                    stroke="#8884d8"
+                    fill="#8884d8"
+                  />
+                  <Area
+                    type="monotone"
+                    dataKey="revenue"
+                    stackId="1"
+                    stroke="#82ca9d"
+                    fill="#82ca9d"
+                  />
+                </AreaChart>
+              </ResponsiveContainer>
+            </div>
           </div>
         </div>
       </div>
       <div className="container mt-5">
-        <div className="row g-4 w-100 mx-auto">
+        <div className="row g-4">
           <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-3">Investment VS Revenue</h3>
-            <BarChart width={400} height={300} data={data}>
-              <XAxis dataKey="month"></XAxis>
-              <YAxis></YAxis>
-              <Tooltip></Tooltip>
-              <Legend />
-              <Bar dataKey="investment" stackId="a" fill="#8884d8" />
-              <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
-            </BarChart>
+            <div style={{ width: "99%", height: 300 }}>
+              <ResponsiveContainer>
+                <BarChart data={data}>
+                  <XAxis dataKey="month"></XAxis>
+                  <YAxis></YAxis>
+                  <Tooltip></Tooltip>
+                  <Legend />
+                  <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+                  <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </div>
           <div className="col-lg-6 col-md-12 col-12">
             <h3 className="text-primary mb-4">Investment VS Revenue</h3>
-
-            <PieChart width={400} height={300}>
-              <Pie
-                data={data}
-                dataKey="investment"
-                cx="50%"
-                cy="50%"
-                outerRadius={60}
-                fill="#8884d8"
-              />
-              <Pie
-                data={data}
-                dataKey="revenue"
-                cx="50%"
-                cy="50%"
-                innerRadius={70}
-                outerRadius={90}
-                fill="#82ca9d"
-                label
-              />
-              <Tooltip></Tooltip>
-              <Legend></Legend>
-            </PieChart>
+            <div style={{ width: "99%", height: 300 }}>
+              <ResponsiveContainer>
+                <PieChart>
+                  <Pie
+                    data={data}
+                    dataKey="investment"
+                    cx="50%"
+                    cy="50%"
+                    outerRadius={60}
+                    fill="#8884d8"
+                  />
+                  <Pie
+                    data={data}
+                    dataKey="revenue"
+                    cx="50%"
+                    cy="50%"
+                    innerRadius={70}
+                    outerRadius={90}
+                    fill="#82ca9d"
+                    label
+                  />
+                  <Tooltip></Tooltip>
+                  <Legend></Legend>
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
           </div>
         </div>
       </div>

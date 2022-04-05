@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <div className="container my-5 p-4">
         <div className="row g-4 container-details">
-          <div className="col-lg-6">
+          <div data-aos="fade-right" className="col-lg-6">
             <div className="text-container ">
               <h1 className="fw-bolder display-5 text-start">
                 Empower station and Outrageous performance.
@@ -35,7 +35,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div data-aos="fade-left" className="col-lg-6">
             <div className="image-container">
               <img className="w-100 h-50 mx-auto" src={image} alt="" />
             </div>
