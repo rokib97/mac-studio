@@ -8,7 +8,7 @@ const Review = ({ reviews }) => {
 
   return (
     <div className="col-lg-4 col-md-6 col-12">
-      <Card className="p-3 card-details">
+      <Card data-aos="zoom-in-up" className="p-3 card-details">
         <Card.Img className="rounded-circle" variant="top" src={image} />
         <Card.Body className="bg-light my-3 text-dark rounded">
           <Card.Title>{name}</Card.Title>

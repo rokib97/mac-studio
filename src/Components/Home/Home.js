@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import useReview from "../../hooks/useReview";
-import HomeReview from "../HomeReview/HomeReview";
+import Review from "../Review/Review";
 import "./Home.css";
 import image from "./studio-removebg-preview.png";
 
@@ -46,7 +46,7 @@ const Home = () => {
         <h1 className="fw-bolder display-5 mb-4">Customer Reviews</h1>
         <div className="row g-4">
           {reviews.slice(0, 3).map((review) => (
-            <HomeReview key={review.id} reviews={review} />
+            <Review key={review.id} reviews={review} />
           ))}
         </div>
         <button
