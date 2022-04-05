@@ -10,7 +10,7 @@ const Review = ({ reviews }) => {
     <div className="col-lg-4 col-md-6 col-12">
       <Card data-aos="zoom-in-up" className="p-3 card-details">
         <Card.Img className="rounded-circle" variant="top" src={image} />
-        <Card.Body className="bg-light my-3 text-dark rounded">
+        <Card.Body className="card-body p-3 mt-4 text-dark rounded">
           <Card.Title>{name}</Card.Title>
           {[...Array(number)].map(() => {
             return (
