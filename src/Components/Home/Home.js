@@ -10,7 +10,7 @@ const Home = () => {
   const [reviews] = useReview();
   return (
     <>
-      <div className="container my-5 overflow-hidden">
+      <div className="container my-5 p-5 overflow-hidden">
         <div className="row g-4 container-details">
           <div data-aos="fade-right" className="col-lg-6">
             <div className="text-container ">

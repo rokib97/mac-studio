@@ -1,36 +1,42 @@
 [
   {
     "id": "6249faeb55a28a2b2a2acd4a",
+    "ratings": "5",
     "image": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
     "name": "Greta Pierce",
     "review": "The Mac Studio is one of the best creative workstations you can buy right now, especially if you're after high performance in a small form factor. It makes light work of even the most intense projects, from editing ultra-high definition videos in Final Cut Pro, to working with multi-tracked audio projects in Logic Pro. Saying that, it's overkill for most people and is certainly not cheap.\r\n"
   },
   {
     "id": "6249faeb42554e1879cfe489",
+    "ratings": "4",
     "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "name": "Stephens Noble",
     "review": "Both models can then be upgraded further. Tick all the boxes and you will end up with an Apple M1 Ultra with a 20-core CPU, 64-core GPU, and 32-core neural engine. You can also upgrade to 128GB of unified memory (let that sink in for a moment) and 8TB of SSD storage. (…) It is a lot  like, a lots of money. It is also not upgradeable after the fact, so once you have locked in that order, thats it, you can not add in more memory or anything else internally. .\r\n"
   },
   {
     "id": "6249faeb7a91e636be5f948b",
+    "ratings": "5",
     "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "name": "Mcmahon Mosley",
     "review": "The Mac Studio has some benefits that are obvious even before you turn it on: It does not take up much floor or desk space;it is easy to move around (clocking in at either 5.9 pounds for the M1 Max model or 7.9 pounds for the M1 Ultra); and its curvy aluminum case looks like something you would find at MoMa. It is not meant to disappear into the background like the Mac Mini. No, the Studio deserves a prominent spot on your desk, a symbol that you have become a true creative professional. .\r\n"
   },
   {
     "id": "6249faebec99e6f23c157a80",
+    "ratings": "4",
     "image": "https://images.unsplash.com/photo-1517256673644-36ad11246d21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "name": "Samantha Navarro",
     "review": "The way the M1 Ultra is setup is still insane to me. Even with high end GPUs in the past you couldn't really just use 2 to effectively make 1 super GPU (as far as I know). I wonder if this approach could be used in future processors by different companies. Although the M1 chips is much more integrated including the GPU, ram, etc. while Intel/AMD CPU's are more individual parts. Props to Apple on this achievement.\r\n"
   },
   {
     "id": "6249faeb8cc5fb766d39ad45",
+    "ratings": "5",
     "image": "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=581&q=80",
     "name": "Rhoda Green",
     "review": "The Mac Studio is a good choice if you are committed to the desktop lifestyle and have a display handy (or are buying the new Studio Display). If you’re someone who also uses a laptop, it might be worth considering that the Mac Studio with the M1 Max processor is almost identical in performance to the MacBook Pro with the M1 Max processor. If the M1 processor is powerful enough for your needs, there is no need for a Mac Studio—a 24-inch iMac will suit, as will a Mac mini..\r\n"
   },
   {
     "id": "6249faebb09c225efb54aa8d",
+    "ratings": "4",
     "image": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "name": "Frank Lynn",
     "review": "The exterior of the Mac Studio did get warmer over long testing sessions but never seemed to reach body temperature. Whenever I touch the Mac Studio, it always feels cool to me, even after intense workloads. .\r\n"

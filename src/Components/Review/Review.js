@@ -1,11 +1,10 @@
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Card } from "react-bootstrap";
-import Rating from "react-rating";
+import { FaStar } from "react-icons/fa";
 import "./Review.css";
 const Review = ({ reviews }) => {
-  const { name, review, image } = reviews;
+  const { name, review, image, ratings } = reviews;
+  const number = parseInt(ratings);
 
   return (
     <div className="col-lg-4 col-md-6 col-12">
@@ -13,14 +12,11 @@ const Review = ({ reviews }) => {
         <Card.Img className="rounded-circle" variant="top" src={image} />
         <Card.Body className="bg-light my-3 text-dark rounded">
           <Card.Title>{name}</Card.Title>
-          <Rating
-            initialRating={4.5}
-            emptySymbol={<FontAwesomeIcon icon={faStar} />}
-            fullSymbol={
-              <FontAwesomeIcon style={{ color: "gold" }} icon={faStar} />
-            }
-            readonly
-          ></Rating>
+          {[...Array(number)].map(() => {
+            return (
+              <FaStar key={Math.random()} className="text-warning"></FaStar>
+            );
+          })}
           <Card.Text>
             <i>{review.length > 180 ? review.slice(0, 180) : review}...</i>
           </Card.Text>

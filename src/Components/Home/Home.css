@@ -4,9 +4,8 @@
   align-items: center;
 }
 .image-container img {
-  width: 400px;
-  height: 400px;
-  /* margin-bottom: 8px; */
+  width: 500px;
+  height: 500px;
 }
 .text-container {
   text-align: start;
