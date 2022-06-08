@@ -2,7 +2,7 @@
 
 Live Link : [Mac Studio](https://apple-mac-studio.netlify.app/).
 
-## Basic Project Structure Setup
+## Basic Project Structure Setup Details
 
 - Setup Home Page, Reviews,Dashboard and Blog Component And initilize the route.
 - Setup the navigation bar and use Link to set the path of routes.
